@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="ExAd">
+	<Package name="HaloParachute">
+		<Container name="Actions">
+			<Key ID="STR_ExAd_HALOPARACHUTE_ACTIONS_HALO">
+				<Original>光环跳</Original>
+			</Key>
+			<Key ID="STR_ExAd_HALOPARACHUTE_ACTIONS_PARACHUTE">
+				<Original>打开降落伞</Original>
+			</Key>
+			<Key ID="STR_ExAd_HALOPARACHUTE_ACTIONS_DETACH">
+				<Original>打开降落伞</Original>
+			</Key>
+		</Container>
+		<Container name="Info">
+			<Key ID="STR_ExAd_HALOPARACHUTE_INFO_DETACH">
+				<Original>Alt + Shift + V弹射降落伞!</Original>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="VirtualGarage">
+		<Container name="Notifications">
+			<Key ID="STR_ExAd_VG_NOTI_FULL">
+				<Original>你的车库是完整的!</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_NOTI_NOT_PERSISTENT">
+				<Original>你只能存储pincode保护汽车开进车库!</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_NOTI_NOT_AVAILABLE">
+				<Original>车辆不可用了!</Original>
+			</Key>
+		</Container>		
+		<Container name="APP">
+			<Key ID="STR_ExAd_VG_APP_DETAILS">
+				<Original>%2 %1Pin码: %3 %1燃料: %4 %1损害: %5 %1纹理: %6 %1项目: %7 %1杂志: %8 %1武器: %9</Original> <!-- %1 - New line | %2 - Vehicle class display name | %3 - Pin Code | %4 - Fuel | %5 - Damage | %6 - Texture | %7 - Items | %8 - Magazines | %9 - Weapons -->
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_BTN_BACK">
+				<Original>回去</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_BTN_FETCH">
+				<Original>获取</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_BTN_STORE">
+				<Original>商店</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_TTL_DETAILS">
+				<Original>存储车辆细节</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_TTL_STORED">
+				<Original>存储</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_TTL_NEAR">
+				<Original>在半径</Original>
+			</Key>
+			<Key ID="STR_ExAd_VG_APP_CB_SECRET">
+				<Original>友好的用户界面</Original>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Grinding">
+		<Container name="Notifications">
+			<Key ID="STR_ExAd_GRINDING_NOTI_BROKE">
+				<Original>你磨坏了,你可以继续之前得到一个新的。</Original>
+			</Key>
+			<Key ID="STR_ExAd_GRINDING_NOTI_EMPTY_BAT">
+				<Original>找到一些电池让磨床工作。</Original>
+			</Key>
+			<Key ID="STR_ExAd_GRINDING_NOTI_PROGRESS">
+				<Original>我认为我得到通过。</Original>
+			</Key>
+			<Key ID="STR_ExAd_GRINDING_NOTI_FINISHED">
+				<Original>你有破锁的代码。</Original>
+			</Key>
+			<Key ID="STR_ExAd_GRINDING_NOTI_RESTORED">
+				<Original>你已经改变了</Original>
+			</Key>
+		</Container>
+	<Package name="Hacking">
+		<Container name="Notifications">
+			<Key ID="STR_ExAd_HACKING_NOTI_MAX_TERRITORY_HACKS_REACHED">
+				<Original>连接失败!领土wi - fi是失望!</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_TERRITORY_ONE_HACK">
+				<Original>wi - fi占领! !</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_MAX_SIM_HACKS">
+				<Original>笔记本电脑超载和被毁了!另一个黑客已经使用网格。</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_NO_PLAYER_PRESENT">
+				<Original>没有可用的无线网络!</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_VG_SUCCESS">
+				<Original>破解成功!虚拟车库卸载一个%1</Original> <!-- %1 indicates the vehicle class name that's going to be shown-->
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_VG_NO_VEH">
+				<Original>破解成功!车辆没有被存储在虚拟的车库。</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_SAFE_SUCCESS">
+				<Original>破解成功!现在安全解锁。</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_INTERUPTED">
+				<Original>黑客一直流动受阻</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_NOTI_FAILED">
+				<Original>破解失败!电路过载!</Original>
+			</Key>
+		</Container>
+		<Container name="Hint">
+			<Key ID="STR_ExAd_HACKING_HINT_TITLE">
+				<Original>黑客活动</Original>
+			</Key>
+			<Key ID="STR_ExAd_HACKING_HINT_HACK_START">
+				<Original>有人在窃听别人的基地!</Original>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="StatsBar">
+		<Container name="App">
+			<Key ID="STR_ExAd_SB_APP_GO_BACK">
+				<Original>回去</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_KD">
+				<Original>杀死/死亡比率</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_HP">
+				<Original>健康</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_THIRST">
+				<Original>渴</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_HUNGER">
+				<Original>饥饿</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_WALLET">
+				<Original>钱包</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_BANK">
+				<Original>银行</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_RESPECT">
+				<Original>声望</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_COLORS">
+				<Original>迹象</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_FPS">
+				<Original>帧/秒</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_TIMER">
+				<Original>重启时间</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_TEMP">
+				<Original>体温</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_GRID">
+				<Original>网格位置</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_COMPASS">
+				<Original>指南针</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_PLAYERS">
+				<Original>玩家在线</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_CLAN_MEMBERS">
+				<Original>家庭成员在线</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_CB_HIDE_EXILE_SB">
+				<Original>隐藏状态栏</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_BG_COLOR">
+				<Original>背景颜色</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_POS_SIZE">
+				<Original>位置/尺寸</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_COMBO_FONT">
+				<Original>字体</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_COMBO_TOOLTIP_FONT">
+				<Original>字体</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_COMBO_TOOLTIP_ALIGN">
+				<Original>对齐</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_TEXT_COLOR">
+				<Original>文本颜色</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_UPDATE_RATE">
+				<Original>更新的速度</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_TEXT_SIZE">
+				<Original>文字大小</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_TEXT_MARGIN">
+				<Original>保证金</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_TEXT_PADDING">
+				<Original>填充</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_SLIDER_IMG_SIZE">
+				<Original>图像大小</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_BTN_SHOW">
+				<Original>显示</Original>
+			</Key>
+			<Key ID="STR_ExAd_SB_APP_BTN_HIDE">
+				<Original>隐藏</Original>
+			</Key>
+		</Container>
+	</Package>
+</Project>
